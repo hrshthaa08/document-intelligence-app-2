@@ -1,0 +1,95 @@
+# 📄 AI Document Intelligence Platform
+
+An AI-powered web application that analyzes unstructured PDF documents and extracts meaningful insights such as keywords, summaries, highlights, and allows interactive querying.
+
+---
+
+## 🚀 Features
+
+* Upload and process PDF documents
+* Extract up to 500 meaningful keywords
+* Generate automatic summaries
+* Highlight important content
+* Visualize keyword frequency (dashboard)
+* Interactive document chatbot
+* Deployed as a web-based application
+
+---
+
+## 🧠 How It Works
+
+1. User uploads a PDF document
+2. Text is extracted using PDF processing
+3. NLP techniques are applied:
+
+   * Keyword Extraction (YAKE)
+   * Summarization (LSA - SUMY)
+4. Results are displayed in:
+
+   * Dashboard
+   * Insights
+   * Preview
+   * Chat interface
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Streamlit
+* PDFPlumber
+* YAKE
+* SUMY
+
+---
+
+## 📊 System Modules
+
+* Dashboard → Displays analytics and keyword frequency
+* Insights → Keywords, summary, highlights
+* Preview → Raw document content
+* Assistant → Query-based interaction
+
+---
+
+## ▶️ How to Run Locally
+
+pip install -r requirements.txt
+python -m streamlit run app.py
+
+---
+
+## 🌐 Live Demo
+
+(Add your deployed link here)
+
+---
+
+## 🎯 Applications
+
+* Research document analysis
+* Intelligence data processing
+* Academic content summarization
+* Document management systems
+
+---
+
+## 🚀 Future Enhancements
+
+* Integration with advanced AI models
+* Multi-language support
+* Improved semantic search
+* Secure authentication system
+
+---
+
+## 👩‍💻 Author
+
+Harshitha P
+Internship Project
+
+---
+
+## 📌 Note
+
+This project demonstrates how AI and NLP techniques can transform unstructured data into actionable insights.
